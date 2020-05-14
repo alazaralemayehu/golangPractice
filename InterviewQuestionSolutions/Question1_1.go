@@ -175,6 +175,7 @@ func SmallestDifference(arrayOne, arrayTwo []int) (smallestPair [2]int) {
 
 func ValidateBST(bst *datastructure.BinarySearchTree) {
 	fmt.Println(validateHelper(bst.RootNode))
+	Slice
 }
 
 func validateHelper(treeNode *datastructure.TreeNode) bool {
